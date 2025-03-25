@@ -29,7 +29,10 @@ AiB frequently engages third-party security auditors to review software in the e
 
 * GovGen daemon: This is a minimal fork of the popular Cosmos Gaia project, which itself is a wrapper for a version of the Cosmos SDK audited by Oak Security. We do not have any third-party audits planned for this daemon.
 
-* AtomOne daemon: A third-party audit is currently planned.
+* AtomOne daemon: Zellic produced a [report](audits/) for their audit of the AtomOne daemon on March 11, 2025. Scope for this audit included:
+    * Source code for our most recent atomoned binaries (commits ca0724f0...49fa9f96)
+    * Source code for a proposed x/photon module
+    * PR #69 for a proposed dynamic deposit throttler: https://github.com/atomone-hub/atomone/pull/69/
 
 * GovGen Governance dApp: Zellic produced a [report](audits/) for their audit of this dApp on May 7, 2024 against commit 2efa134e3adab63055d2c5a66766ee1ad67f3c03. Additionally, the audit of the AtomOne Staking Portal included the latest changes of the GovGen Governance dApp through commit 6b3fd24e96a6ce54afa9a6280cee9bc08aa653ff. 
 
